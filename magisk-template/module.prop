@@ -1,0 +1,6 @@
+id=glass_a2dp_sink
+name=Glass EE2 Bluetooth Headphone (A2DP Sink + AVRCP)
+version=v1.3
+versionCode=4
+author=BW
+description=Enables native Bluetooth A2DP Audio Sink and AVRCP Controller on Google Glass Enterprise Edition 2.

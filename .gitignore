@@ -1,0 +1,6 @@
+# Never commit patched OEM/Qualcomm system binaries to public Git
+dist/glass_ee2_a2dp_sink_magisk.zip
+magisk-template/system/lib64/
+*.idsig
+build/
+.DS_Store
