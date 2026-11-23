@@ -46,6 +46,7 @@ Enabling `A2DP Sink` on Glass EE2 (`OPM1.221111.001`) requires clearing four sep
   > fastboot flash boot_b magisk26_sar.img
   > fastboot reboot
   > ```
+  > *(Bonus: Disabling `vbmeta` verification causes EE2's bootloader to omit `androidboot.avb_version`, which normally triggers an undismissable `"There's an internal problem with your device"` popup on every boot. This Magisk module (`v1.4+`) automatically restores `ro.boot.avb_version=1.0` during `post-fs-data` so that popup never appears.)*
 - `python3` and `adb` on your computer.
 
 ---
